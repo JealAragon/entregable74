@@ -17,7 +17,7 @@ const Skd = () => {
 
 
   return (
-    <div    className='flex justify-center items-center align-middle  gap-2  scroll-smooth  '  >
+    <div    className='flex justify-center items-center flex-wrap  '  >
 
        
 
