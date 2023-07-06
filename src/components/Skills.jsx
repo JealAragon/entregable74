@@ -6,7 +6,7 @@ const Skills = () => {
           
           
     <section className='bg-slate-900 gap-2  px-4 py-8  min-w-[180px] rounded-md grid justify-center items-center  ' >
-        <span className='text-primary mx-auto' >1</span>
+        <span className='text-primary mx-auto  mt-10' >1</span>
         <p>React js</p>
 
     </section>

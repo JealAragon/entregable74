@@ -5,13 +5,15 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Main from './components/Main'
 
 function App() {
 
 
   return (
-    <main className='bg-black'>
+    <main className='bg-[#1f2028]'>
       <Header/>
+      <Main/>
       <Hero/>
       <Skills/>
       <Projects/>
