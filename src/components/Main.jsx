@@ -14,7 +14,7 @@ const Main = () => {
               
         <h2 className='font-[Inconsolata]  text-xl   sm:text-2xl md:text-4xl  text-center ' > <span className='text-primary '>Hi! </span> I am a Frontend developed and Web programmer </h2>
  
-    <div className='font-[Inconsolata]  text-xl   sm:text-2xl md:text-4xl  text-center  flex  mt-20  '> 
+    <div className='font-[Inconsolata]  text-xl   sm:text-2xl md:text-4xl  text-center  flex  mt-20 gap-4  '> 
     <h2>SKD:</h2>
     <Skd/>
     </div>  

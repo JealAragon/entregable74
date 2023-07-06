@@ -11,7 +11,7 @@ function App() {
 
 
   return (
-    <main className='bg-[#1f2028] absolute'>
+    <main className='bg-[#1f2028] '>
       <Header/>
       <Main/>
       <Hero/>
