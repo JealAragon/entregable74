@@ -12,7 +12,7 @@ const Main = () => {
 
         <h1 className='  font-[Poppins]  font-extrabold  text-5xl sm:text-7xl   md:text-8xl    lg:text-[150px]  text-center mt-28 ' > JEAL ARAGON </h1>
               
-        <h2 className='font-[Inconsolata]  text-xl   sm:text-2xl md:text-4xl  text-center ' > <span className='text-primary '>Hi! </span> I am a Frontend developed and Web programmer </h2>
+        <h2 className='font-[Inconsolata]  text-xl   sm:text-2xl md:text-4xl  text-center ' > <span className='text-primary '>Hola! </span> Soy desarrollador Front-end y programador Web </h2>
  
     <div className='font-[Inconsolata]  text-xl   sm:text-2xl md:text-4xl  text-center  flex  mt-20 gap-4  '> 
     <h2>SKD:</h2>

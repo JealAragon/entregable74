@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='text-white bg-slate-800 p-4 grid grid-cols-1  sm:grid-cols-2  md:grid-cols-3   justify-center items-center gap-4 rounded-md max-w-[800px]  mx-auto  mt-20 md:mt-0  '   >
+    <div className=' h-[60vh]  sm:h-[30vh] md:h-[30vh]  text-white  p-4 grid grid-cols-1  sm:grid-cols-2  md:grid-cols-3   justify-center items-center gap-4 rounded-md max-w-[800px]  mx-auto  mt-20 md:mt-0  '   >
           
           
 

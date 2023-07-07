@@ -20,7 +20,9 @@ const handleClickw = ()=>{
         window.open('https://www.instagram.com/jealaragon123/', '_blank')
         }
 
-
+        const handleClickMenu = ()=>{
+          return <Alert severity="error">This is an error alert — check it out!</Alert>
+          }
 
 
   return (
@@ -47,9 +49,9 @@ const handleClickw = ()=>{
 
         <button  onClick={()=> setShowMenu(!showMenu)}   className='-mt-[50%] text-white text-2xl  ' > X </button>
         
-        <a href="#" className='text-primary'>Home</a>
-        <a href="#" className='text-primary'>About Use</a>
-        <a href="#" className='text-primary'>Services</a>
+        <a onClick={handleClickMenu}   href="#" className='text-primary'>Inicio</a>
+        <a href="#" className='text-primary'>Acerca de mi</a>
+        <a href="#" className='text-primary'>Proyectos</a>
     </nav>
     
 
