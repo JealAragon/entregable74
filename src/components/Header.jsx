@@ -2,8 +2,27 @@
 import React, { useState } from 'react'
 
 const Header = () => {
-useState
+
 const [showMenu, setShowMenu] = useState(false)
+
+const handleClickH = ()=>{
+  window.open('https://github.com/JealAragon/', '_blank')
+  }
+
+const handleClickl = ()=>{
+    window.open('https://www.linkedin.com/in/jeal-aragon-gonzales-293580177/', '_blank')
+    }
+const handleClickw = ()=>{
+      window.open('https://api.whatsapp.com/send?phone=51997900200&text=Hola,%20vi%20tu%20proyecto%20', '_blank')
+      }
+
+ const handleClicki = ()=>{
+        window.open('https://www.instagram.com/jealaragon123/', '_blank')
+        }
+
+
+
+
   return (
     <header className='flex  items-center justify-between xl:justify-start w-full py-4 px-2  h-[10vh]  z-50  bg-[#1f2028]' >
    
@@ -16,10 +35,10 @@ const [showMenu, setShowMenu] = useState(false)
     </div>
 
     <nav className='  rounded-lg px-1 py-2 gap-2 flex  xl:w-1/3 justify-center ' >
-     <button className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600 text-xs sm:text-lg md:text-2xl ' > <i className='bx bxl-github' ></i>  </button>
-      <button className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600  text-xs sm:text-lg md:text-2xl ' > <i className=' bx bxl-linkedin'></i>  </button>
-      <button className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600 text-xs sm:text-lg md:text-2xl' > <i className='bx bxl-whatsapp' ></i>  </button>
-      <button className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600 text-xs sm:text-lg md:text-2xl ' > <i className='bx bxl-instagram'  ></i>  </button>
+     <button  onClick={handleClickH}  className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600 text-xs sm:text-lg md:text-2xl ' > <i className='bx bxl-github' ></i>  </button>
+      <button onClick={handleClickl} className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600  text-xs sm:text-lg md:text-2xl ' > <i className=' bx bxl-linkedin'></i>  </button>
+      <button onClick={handleClickw} className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600 text-xs sm:text-lg md:text-2xl' > <i className='bx bxl-whatsapp' ></i>  </button>
+      <button onClick={handleClicki} className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600 text-xs sm:text-lg md:text-2xl ' > <i className='bx bxl-instagram'  ></i>  </button>
     </nav> 
 
 

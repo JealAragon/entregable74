@@ -7,6 +7,8 @@ const arrayOfWork = ["React","Javascript","CSS","HTML", "Tailwind"]
 const Skd = () => {
 
     const [paragraphCounter, setParagraphCounter] = useState(0)
+    
+    
     useEffect(() => {
       const interval =setInterval(()=>{
         setParagraphCounter((currentValue)=> {
@@ -21,33 +23,16 @@ const Skd = () => {
 
     }, [])
 
-
-    const [icon, setIcon] = useState(false)
-
-
-
-    
-
-
     
 
   return (
 
 
-    <div    className='flex justify-center items-center flex-wrap  text-base  sm:text-lg md:text-xl  gap-2   text-center'  >
-
-        
+    <div    className='flex justify-center items-center flex-wrap  text-base  sm:text-lg md:text-xl  gap-2   text-center'  >        
         <h3 className='text-primary'> {"<h2>"} </h3>
-     
-
         <div className='text-white' > {arrayOfWork[paragraphCounter]}    </div>
-
-
         <h3 className='text-primary'  > {"</h2>"} </h3>
 
-        
-
-        
 
        {/*
    
@@ -77,9 +62,6 @@ const Skd = () => {
         </div>
 
      */}
-
-
-
 
 
     </div>
