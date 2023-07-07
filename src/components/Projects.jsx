@@ -90,16 +90,32 @@ const Projects = () => {
          </section>
 
          
-         <button onClick={handleClickCart}  className=' text-white text-xl py-2 px-10 rounded-full border-2  border-white  hover:bg-cyan-600'> go to project </button>    
-       
+         <button onClick={handleClickCart}  className=' text-white text-xl py-2 px-10 rounded-full border-2  border-white  hover:bg-cyan-600'> go to project </button> 
+
+  
+
+
+
+
 
 </div>
 
 
 
-<section/>
+
+
+
 
 </section>
+
+
+<section className=' h-[20vh] flex  flex-wrap flex-cols-1 md:flex-cols-8 md:flex-flow-row  text-white mt-20 md:mt-0  justify-center items-center'>
+       
+      
+
+   </section>
+
+
 
 
 </section>
