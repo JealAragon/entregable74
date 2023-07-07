@@ -1,6 +1,8 @@
 
 import React, { useState } from 'react'
 
+import swal from 'sweetalert'
+
 const Header = () => {
 
 const [showMenu, setShowMenu] = useState(false)
@@ -16,13 +18,17 @@ const handleClickw = ()=>{
       window.open('https://api.whatsapp.com/send?phone=51997900200&text=Hola,%20vi%20tu%20proyecto%20', '_blank')
       }
 
- const handleClicki = ()=>{
-        window.open('https://www.instagram.com/jealaragon123/', '_blank')
-        }
-
-        const handleClickMenu = ()=>{
-          return <Alert severity="error">This is an error alert — check it out!</Alert>
-          }
+const handleClicki = ()=>{
+        window.open('https://api.whatsapp.com/send?phone=51997900200&text=Hola,%20vi%20tu%20proyecto%20', '_blank')
+      }      
+const hanbleAlert =()=>{
+  swal({  
+    title:"Estoy en Construccion",
+    text:"pronto estare habilitado",
+    button:"ok",
+    timer:"3000"
+  })
+}
 
 
   return (
@@ -40,7 +46,7 @@ const handleClickw = ()=>{
      <button  onClick={handleClickH}  className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600 text-xs sm:text-lg md:text-2xl ' > <i className='bx bxl-github' ></i>  </button>
       <button onClick={handleClickl} className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600  text-xs sm:text-lg md:text-2xl ' > <i className=' bx bxl-linkedin'></i>  </button>
       <button onClick={handleClickw} className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600 text-xs sm:text-lg md:text-2xl' > <i className='bx bxl-whatsapp' ></i>  </button>
-      <button onClick={handleClicki} className='text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600 text-xs sm:text-lg md:text-2xl ' > <i className='bx bxl-instagram'  ></i>  </button>
+      <button onClick={handleClicki} className= 'text-white rounded-xl border-2  p-2  border-primary  hover:bg-cyan-600 text-xs sm:text-lg md:text-2xl ' > <i className='bx bxl-instagram'  ></i>  </button>
     </nav> 
 
 
@@ -49,9 +55,9 @@ const handleClickw = ()=>{
 
         <button  onClick={()=> setShowMenu(!showMenu)}   className='-mt-[50%] text-white text-2xl  ' > X </button>
         
-        <a onClick={handleClickMenu}   href="#" className='text-primary'>Inicio</a>
-        <a href="#" className='text-primary'>Acerca de mi</a>
-        <a href="#" className='text-primary'>Proyectos</a>
+        <button   href="#"   className='text-primary'>Inicio</button>
+        <a   onClick={()=>hanbleAlert()}  className='text-primary'>Acerca de mi</a>
+        <a onClick={()=>hanbleAlert()}  className='text-primary'>Proyectos</a>
     </nav>
     
 
